@@ -52,6 +52,8 @@ public class Test {
 		d1.setInnerR(5);
 		System.out.println("Povrsina krifne : " + d1.area());
 		
+		System.out.println("Broj: " + pt1.distance(pt2.getX(), pt2.getY()));
+		System.out.println("Broj: " + pt2.distance(pt1.getX(), pt1.getY()));
 		
 	}
 
